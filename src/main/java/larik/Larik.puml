@@ -1,0 +1,6 @@
+@startuml
+
+class Larik {
++{static} cetak(int[]) : void
+}
+@enduml
