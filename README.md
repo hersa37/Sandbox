@@ -6,3 +6,8 @@ Hal yang dipelajari di kelas akan dimasukkan ke sini, dan akan diberikan comment
 Materi yang sudah masuk:
 - Larik https://github.com/hersa37/Sandbox/tree/master/src/main/java/larik
 - Rekursi https://github.com/hersa37/Sandbox/tree/master/src/main/java/recursive
+
+
+# Class Diagram
+
+![Class Diagram](https://github.com/hersa37/Sandbox/blob/master/Classes.png)
