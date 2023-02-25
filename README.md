@@ -4,5 +4,5 @@ Selamat datang di halaman sandbox untuk kode-kode kelas SDL. Disebut sandbox kar
 Hal yang dipelajari di kelas akan dimasukkan ke sini, dan akan diberikan comment deskripsi di waktu berikutnya.
 
 Materi yang sudah masuk:
-- Larik 
-- Rekursi
+- Larik https://github.com/hersa37/Sandbox/tree/master/src/main/java/larik
+- Rekursi https://github.com/hersa37/Sandbox/tree/master/src/main/java/recursive
