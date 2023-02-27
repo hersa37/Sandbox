@@ -8,6 +8,6 @@ Materi yang sudah masuk:
 - Rekursi https://github.com/hersa37/Sandbox/tree/master/src/main/java/recursive
 
 
-# Class Diagram
+# Class Diagram Penting
 
 ![Class Diagram](https://github.com/hersa37/Sandbox/blob/master/Classes.png)
