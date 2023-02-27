@@ -1,4 +1,4 @@
-# Sandbox
+# Sandbox SDL
 Selamat datang di halaman sandbox untuk kode-kode kelas SDL.
 
 Hal yang telah dipelajari di kelas akan dimasukkan ke sini, dan akan diberikan comment deskripsi di waktu berikutnya.
