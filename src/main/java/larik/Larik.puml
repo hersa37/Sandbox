@@ -1,6 +1,9 @@
 @startuml
 
 class Larik {
-+{static} cetak(int[]) : void
++ {static} cetak(int[]) : void
++ {static} sequentialSearch(int[], int) : int
++ {static} binarySearch(int[], int) : int
++ {static} interpolationSearch(int[], int) : int
 }
 @enduml
