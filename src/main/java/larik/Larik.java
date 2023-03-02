@@ -15,4 +15,47 @@ public class Larik {
 			System.out.print(array[i] + " ");
 		}
 	}
+
+	public static int sequentialSearch(int[] array, int key) {
+		for (int i = 0; i < array.length; i++) {
+			if(key == array[i]){
+				return i;
+			}
+		}
+		return -1;
+	}
+
+	public static int binarySearch(int[] sortedArray, int key) {
+		int low = 0;
+		int high = sortedArray.length - 1;
+		while(low < high) {
+			int mid = (high + low) / 2;
+			if(key == sortedArray[mid]) {
+				return mid;
+			}
+			if(key < sortedArray[mid]) {
+				high = mid;
+			} else {
+				low = mid;
+			}
+		}
+		return -1;
+	}
+
+	public static int interpolationSearch(int[] sortedArray, int key) {
+		int low = 0;
+		int high = sortedArray.length - 1;
+		while(low < high) {
+			int mid = low + ((key - sortedArray[low]) * (high - low)) / (sortedArray[high] - sortedArray[low]);
+			if(key == sortedArray[mid]) {
+				return mid;
+			}
+			if(key < sortedArray[mid]) {
+				high = mid;
+			} else {
+				low = mid;
+			}
+		}
+		return -1;
+	}
 }
